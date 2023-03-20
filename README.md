@@ -1,2 +1,3 @@
-# Bad_Apple_ChatGPT
+# Bad Apple ChatGPT
 Bad Apple On ChatGPT
+
