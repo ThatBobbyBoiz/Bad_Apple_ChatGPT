@@ -37,12 +37,12 @@ Before starting, it's advised to have some basic coding knowledge. Also, keep in
 5. Create a new chat or use an old chat. Then enable Web Developer Tool (by pressing F12 key) and go to the Inspector tab. In the "Search HTML" box, type "textarea" and find one that looks like this:
 
 ```html
-<textarea tabindex="0" data-id="//ID" style="max-height: 200px; height: 24px; overflow-y: hidden;" rows="1" class="m-0 w-full resize-none border-0 bg-transparent p-0 pr-7 focus:ring-0 focus-visible:ring-0 dark:bg-transparent pl-2 md:pl-0"></textarea>```
+<textarea tabindex="0" data-id="//ID" style="max-height: 200px; height: 24px; overflow-y: hidden;" rows="1" class="m-0 w-full resize-none border-0 bg-transparent p-0 pr-7 focus:ring-0 focus-visible:ring-0 dark:bg-transparent pl-2 md:pl-0"></textarea>```html
 
 6. Right-click on the element and choose "Edit as HTML." Then change the HTML code of the `textarea` element to this:
 
 ```html
-<textarea tabindex="0" data-id="//ID" style="max-height: 200px; height: auto; overflow-y: hidden; font-size: 3px; white-space: pre-wrap; line-height: 6px; font-family: monospace;" rows="60" class="m-0 w-full resize-none border-0 bg-transparent p-0 pl-2 pr-7 focus:ring-0 focus-visible:ring-0 dark:bg-transparent md:pl-0"></textarea>```
+<textarea tabindex="0" data-id="//ID" style="max-height: 200px; height: auto; overflow-y: hidden; font-size: 3px; white-space: pre-wrap; line-height: 6px; font-family: monospace;" rows="60" class="m-0 w-full resize-none border-0 bg-transparent p-0 pl-2 pr-7 focus:ring-0 focus-visible:ring-0 dark:bg-transparent md:pl-0"></textarea>```html
 
 If you see your message box has become bigger, then you are good to proceed to the next step
 
