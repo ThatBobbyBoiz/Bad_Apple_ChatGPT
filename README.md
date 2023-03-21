@@ -43,9 +43,11 @@ In "Search HTML" box, type in "textarea", find one that looks like this:
 
 <textarea tabindex="0" data-id="//ID" style="max-height: 200px; height: 24px; overflow-y: hidden;" rows="1" class="m-0 w-full resize-none border-0 bg-transparent p-0 pr-7 focus:ring-0 focus-visible:ring-0 dark:bg-transparent pl-2 md:pl-0"></textarea>
 
+
 Then right click the element and choose "Edit as HTML", then change the HTML code of textarea element into this:
 
 <textarea tabindex="0" data-id="//ID" style="max-height: 200px; height: auto; overflow-y: hidden; font-size: 3px; white-space: pre-wrap; line-height: 6px; font-family: monospace;" rows="60" class="m-0 w-full resize-none border-0 bg-transparent p-0 pl-2 pr-7 focus:ring-0 focus-visible:ring-0 dark:bg-transparent md:pl-0"></textarea>
+
 
 If you see the message box (the one you type your question to ask ChatGPT) has become bigger then you are set to go
 
