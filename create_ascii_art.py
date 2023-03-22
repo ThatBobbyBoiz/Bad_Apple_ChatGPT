@@ -1,6 +1,6 @@
 """
 Before running this code, you must have every single frame of
-Bad Apple video in a directory. There are many public code online
+Bad Apple video in a directory. There are many online public code
 that are used to extract a video into frames. I would recommend
 this one "https://pypi.org/project/videotoframes/"
 """
@@ -32,7 +32,7 @@ for i, frame_file in enumerate(frame_files):
     # Resize image to fit in the terminal window
     width, height = frame_image.size
     aspect_ratio = height / width
-    new_width = 150
+    new_width = 150 
     new_height = int(aspect_ratio * new_width * 0.244)
     if new_height > 44:
         new_height = 44
