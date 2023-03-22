@@ -47,7 +47,7 @@ Before starting, it's advised to have some basic coding knowledge. Also, keep in
 <textarea tabindex="0" data-id="//ID" style="max-height: 200px; height: auto; overflow-y: hidden; font-size: 3px; white-space: pre-wrap; line-height: 6px; font-family: monospace;" rows="60" class="m-0 w-full resize-none border-0 bg-transparent p-0 pl-2 pr-7 focus:ring-0 focus-visible:ring-0 dark:bg-transparent md:pl-0"></textarea>
 ```
 
-If you see your message box has become bigger, then you are good to proceed to the next step
+If you see your message box has become bigger, then you are good to proceed to the next step. Also, remember, the `ID` in the HTML code will be different, so change it accordingly with the HTML code.
 
 7. Now, go to the Console tab and paste the content of the `run_bad_apple_chatgpt.js` code (remember to change the variable I specified in the code) into the console. If pasting is disabled, you can try typing "allow pasting" into the console.
 
