@@ -10,6 +10,8 @@
 
 This repository contains the code and instructions to recreate the Bad Apple video as ASCII art on ChatGPT. The process involves extracting frames from the original video, converting them into ASCII art, and displaying them in the ChatGPT message box.
 
+Most of the code was written by ChatGPT, I only made some slight modification to make the code run properly
+
 ## Code Explanation
 
 The code for this project is divided into two parts:
@@ -26,7 +28,7 @@ This JavaScript code fetches the ASCII art frames from your public GitHub reposi
 
 Before starting, it's advised to have some basic coding knowledge. Also, keep in mind that this is how I achieved this, and there may be better and more optimized ways to do it.
 
-1. Download the Bad Apple video and extract it into individual frames (around 6571 frames). You can use many public code online to do this, personally, I would recommend this one: https://pypi.org/project/videotoframes/. Save all the extracted frames in a directory (e.g., Bad Apple Frames).
+1. Download the Bad Apple video and extract it into individual frames (around 6571 frames). You can use many online public code to do this, personally, I would recommend this one: https://pypi.org/project/videotoframes/. Save all the extracted frames in a directory (e.g., Bad Apple Frames).
 
 2. Run the `create_ascii_art.py` code (remember to change the variable I specified in the code before running it) to convert all the Bad Apple frames into ASCII art and save them in a specified directory.
 
@@ -49,4 +51,4 @@ If you see your message box has become bigger, then you are good to proceed to t
 
 7. Now, go to the Console tab and paste the content of the `run_bad_apple_chatgpt.js` code (remember to change the variable I specified in the code) into the console. If pasting is disabled, you can try typing "allow pasting" into the console.
 
-Now the ASCII art should be displayed in the message box. I recommend waiting for the code to finish fetching the ASCII art from your Github repo. After it is done fetching, click anywhere in the message box, and the Bad Apple visual will be displayed (in a loop).
+Now the ASCII art should be displayed in the message box. I recommend waiting for the code to finish fetching the ASCII art from your Github repository. After it is done fetching, click anywhere in the message box, and the Bad Apple visual will be displayed (in a loop).
