@@ -49,6 +49,6 @@ Before starting, it's advised to have some basic coding knowledge. Also, keep in
 
 If you see your message box has become bigger, then you are good to proceed to the next step. Also, remember, the `ID` in the HTML code will be different, so change it accordingly with the HTML code.
 
-7. Now, go to the Console tab and paste the content of the `run_bad_apple_chatgpt.js` code (remember to change the variable I specified in the code) into the console. If pasting is disabled, you can try typing "allow pasting" into the console.
+7. Now, go to the Console tab and paste the content of the `run_bad_apple_chatgpt.js` code (remember to change the variable I specified in the code) into the console. If pasting is disabled, you can try typing `allow pasting` into the console.
 
 Now the ASCII art should be displayed in the message box. I recommend waiting for the code to finish fetching the ASCII art from your Github repository. After it is done fetching, click anywhere in the message box, and the Bad Apple visual will be displayed (in a loop).
