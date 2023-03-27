@@ -10,7 +10,9 @@
 
 This repository contains the code and instructions to recreate the Bad Apple video as ASCII art on ChatGPT. The process involves extracting frames from the original video, converting them into ASCII art, and displaying them in the ChatGPT message box.
 
-Most of the code was written by ChatGPT, I only made some slight modification to make the code run properly. 
+Most of the code was written by ChatGPT, I only made some slight modification to make the code run properly.
+
+Watch my Bad Apple on ChatGPT video: https://www.youtube.com/watch?v=pSAxRgc0fuo
 
 ## Code Explanation
 
